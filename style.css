@@ -45,7 +45,8 @@ p{
     font-weight: bold;
     font-size: 18px;
 }
-.bullet{
+.bullet,
+.right-bullet{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(87, 85, 85);
     line-height: 30px;
@@ -94,7 +95,7 @@ p{
 .l-pane,
 .m-pane,
 .r-pane{
-    border: 2px solid red;
+
     padding-bottom: 50px;
 }
 .l-pane{
@@ -103,9 +104,68 @@ p{
 }
 .m-pane{
     flex: 60%;
+ }
+.m-pane-content{
+    padding-left: 7%;
+    padding-right: 7%;
+ }
+.m-pane-content h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+.m-pane-content h2{
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.m-pane-content p{
+    line-height: 30px;
+}
+.three-buttons{
+    display: flex;
+}
+.m-pane-buttons{
+    flex: 33%;
+}
+.m-pane-buttons button{
+    background-color: white;
+    border: 1px solid grey;
+    color:rgb(0, 133, 242);
+    text-decoration: underline;
+    border-radius: 5px;
+    padding: 5px;
+}
+.next-button-input{
+    float: right;
+}
+tr, th{
+    border: 1px solid grey;
+    padding: 10px;
+}
+th{
+    font-weight:lighter;
+    text-align: left;
+    font-size: 18px;
+    line-height: 25px;
+}
+.table-title{
+    font-weight: bold;
+}
+table{
+    border-collapse: collapse;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 .r-pane{
     flex: 20%;
+    
+}
+.right-bullet li{
+    list-style: none;
+    border-left: 2px solid gray;
+    padding-left: 10px;
+    line-height: 40px;
 }
 
 .dark-mode{
