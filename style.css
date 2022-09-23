@@ -1,10 +1,62 @@
-.layout{
+/*.layout{
     padding-left: 10%;
     padding-right: 10%;
     margin: 0px;
-}
+}*/
 p{
     font-family: Arial, Helvetica, sans-serif;
+}
+.d-grey-text,
+.then{
+    color: rgb(112, 110, 110);
+    margin-top: 8px;
+    margin-bottom:8px;
+}
+.then{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.language-switcher{
+    text-align: right;
+}
+.breadcrumbs{
+    background-color: rgb(248, 248, 248);
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding-left:10%;
+    padding-right: 10%;
+    display: flex;
+}
+.breadcrumbs-left, 
+.breadcrumbs-right{
+    display: flex;
+}
+.breadcrumbs-right{
+    margin-left: 65%;
+}
+.lang-switcher-icon{
+    width:20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 7px;
+}
+.l-pane-titles{
+    color: rgb(59, 56, 56);
+    font-weight: bold;
+    font-size: 18px;
+}
+.bullet{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(87, 85, 85);
+    line-height: 30px;
+}
+.sub-bullet{
+    list-style: none;
+}
+.highlighted-bullet{
+    background-color: rgba(0, 133, 242, 0.192);
+    border-left: 3px solid rgb(0, 105, 194);
+    padding: 5px;
 }
 .banner{
     text-align: center;
@@ -16,6 +68,8 @@ p{
 .header{
     display: flex;
     margin-top: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 .logo-img{
     flex:10%;
@@ -26,6 +80,8 @@ p{
 
 .panes{
     display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 .h-pages{
     color: rgb(94, 92, 92);
@@ -38,10 +94,20 @@ p{
 .l-pane,
 .m-pane,
 .r-pane{
-    flex: 33%;
     border: 2px solid red;
     padding-bottom: 50px;
 }
+.l-pane{
+    flex: 20%;
+    border-right: 12px solid rgb(212, 211, 211);
+}
+.m-pane{
+    flex: 60%;
+}
+.r-pane{
+    flex: 20%;
+}
+
 .dark-mode{
     display: flex;
     /*border: 2px solid red;*/
